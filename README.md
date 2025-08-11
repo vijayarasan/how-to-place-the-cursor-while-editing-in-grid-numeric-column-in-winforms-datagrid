@@ -1,7 +1,7 @@
 # How to place the cursor while editing in GridNumericColumn in WinForms DataGrid?
 
 ## About the sample
-This example illustrates how to place the cursor while editing in GridNumericColumn in WinForms DataGrid? 
+This example illustrates how to place the cursor while editing in GridNumericColumn in WinForms DataGrid.
 
 [WinForms DataGrid](https://www.syncfusion.com/winforms-ui-controls/datagrid) (SfDataGrid) enters into editing in [GridNumericColumn](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.DataGrid.GridNumericColumn.html) places the cursor at the last of the edit element. You can places the cursor based on the entered number in a cell by overriding the [OnInitializeEditElement](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.DataGrid.Renderers.GridNumericCellRenderer.html#Syncfusion_WinForms_DataGrid_Renderers_GridNumericCellRenderer_OnInitializeEditElement_Syncfusion_WinForms_DataGrid_DataColumnBase_Syncfusion_WinForms_GridCommon_ScrollAxis_RowColumnIndex_Syncfusion_WinForms_Input_SfNumericTextBox_) method in [GridNumericCellRenderer](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.DataGrid.Renderers.GridNumericCellRenderer.html).
 
